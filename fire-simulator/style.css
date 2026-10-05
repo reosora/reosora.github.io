@@ -44,6 +44,21 @@ li { margin-bottom: 4px; }
 
 a { color: var(--accent); }
 
+.app-header { display: flex; align-items: center; gap: 16px; margin-bottom: 12px; }
+.app-header h1 { margin: 0; }
+.app-icon { width: 96px; height: 96px; border-radius: 22%; border: 1px solid var(--line); flex-shrink: 0; }
+
+.store-link {
+  display: inline-block;
+  padding: 8px 18px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.store-link:hover { opacity: 0.85; }
+
 .lead { color: var(--muted); margin-bottom: 24px; }
 .muted { color: var(--muted); font-size: 0.9rem; }
 
